@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link</title>
+</head>
+<body>
+    <header>
+        
+            <div class="header">
+                <img src="https://www.anime-planet.com/images/characters/noru-stargazia-167075.jpg" width="60px" height="60px">
+                
+                
+            </div>
+                <div class="welcome">
+                    <h2 style="color:black;">WELCOME</h2>
+                    <p>Welcome To My Website</p>
+                </div>
+            
+        
+        
+        
+        
+        
+    </header>
+    <main>
+        <div class="main">
+            <h2>Wellcome</h2>
+        </div>
+        <div class="link">
+            <center>
+                <ul>
+                    
+                    <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank">facebook</a></li>
+                    <li><a href="https://classroom.google.com/u/0/h" target="_blank">classroom</a></li>
+                    <li><a href="https://ytmp3.cc/youtube-to-mp3/" target="_blank">yt download</a></li>
+                    <li><a href="http://www.favicon-icon-generator.com/favicon"  target="_blank">favicon</a></li>
+                </ul>
+            </center>
+            <div class="absen">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        </div>
+        
+
+    </main>
+</body>
+</html>
+<style>
+    *{
+        padding:0;
+        margin: 0;
+        font-family: candara;
+    }
+    header{
+        background-color: rgb(46, 46, 46);
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        height: 90px;
+    }
+    body{
+        background-color: rgb(24, 24, 24);
+    }
+
+    .main{
+        background-color: rgb(24, 24, 24);
+        height: 600px;
+    }
+
+    .main h2:hover{
+        color: white;
+    }
+    
+    .link{
+        background-color: rgb(46, 46, 46);
+        height: 1000px;
+        border-top-right-radius: 30px ;
+        border-top-left-radius: 30px ;
+        position: relative;
+    }
+    .link ul li{
+        display: inline-block;
+        padding: 10px;
+        margin: 15px 5px 30px 5px;
+        border-radius: 15px;
+
+    }
+
+    .link ul li a{
+        color: gray;
+        font-family: sans-serif;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .link ul li:hover {
+        background-color: rgb(75, 75, 75);
+        
+    }
+    .link ul li a:hover{
+        color: white;
+    }
+
+    .header{
+        
+        width: 9%;
+        height: 90px;
+        background-color: rgb(46, 46, 46);
+        position: fixed;
+        z-index: 10000;
+        transition: 0.5s;
+        border-radius: 0 20px;
+    }
+    .header img{
+        border: 5px solid white;
+        border-radius: 50%;
+        margin: 10px 20px;
+        transition: 0.5s;
+    }
+    .header img:hover{
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    .welcome{
+        margin-left: 150px;
+        margin-top: 20px;
+        color: white;
+
+    }
+
+    /*interaktif pada layar kecil*/
+
+    @media screen and (max-width: 600px) {
+        header{
+            height: 50px;
+            transition: 0.5s;
+        }
+        .header{
+            height: 25px;
+        }
+        .header img{
+            width: 30px;
+            height: 30px;
+            border: 2px solid;
+        }
+        .welcome{
+            margin-left: 70px;
+            margin-top: 10px;
+            color: white;
+            transition: 0.5s;
+            font-size: 10px;
+        }
+        .welcome h2{
+            font-size: 15px;
+            color: white;
+            transition: 0.5s;
+
+        }
+        .main h2{
+            font-size: 15px;
+        }
+        .main {
+            height: 600px;
+        }
+        .link ul li{
+            font-size: 15px;
+            margin: 10px 2px;
+            padding: 5px;
+            border-radius: 15px;
+        }
+}
+    @media screen and (max-width: 450px) {
+        header{
+            height: 40px;
+        }
+        .header{
+            height: 40px;
+        }
+        .header img{
+            width: 40px;
+            height: 40px;
+        }
+        
+        .main h2{
+            font-size: 13px;
+            padding: 5px 0 5px 5px;
+            color: white;
+        }
+        .main {
+            height: 500px;
+        }
+        .link ul li{
+            font-size: 10px;
+            margin: 10px 2px;
+            padding: 5px;
+            border-radius: 15px;
+        }
+}
+
+
+</style>
+<script>
+    
+</script>
